@@ -47,3 +47,13 @@ const dataContent = new table({
 
 const app = document.getElementById('app');
 dataContent.render(app);
+
+export default dataContent;
+export { app };
+
+export { createHaeder, createBody, render }
+
+
+
+
+
